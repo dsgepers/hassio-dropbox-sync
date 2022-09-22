@@ -41,7 +41,7 @@ LABEL \
 ENV LANG C.UTF-8
 
 # Setup base
-RUN apk add --no-cache jq curl findutils python3 python3-dev && \
+RUN apk add --no-cache jq=1.6 curl=7.54.0 findutils=4.4.2 python3 python3-dev && \
     pip3 install --no-cache-dir requests==2.28.1 python-dateutil==2.6.1 pytz==2018.3
 
 # Copy data
