@@ -42,7 +42,7 @@ ENV LANG C.UTF-8
 
 # Setup base
 RUN apk add --no-cache jq curl findutils python3 python3-dev && \
-    pip3 install requests python-dateutil==2.6.1 pytz==2018.3
+    pip3 install --no-cache-dir requests==2.28.1 python-dateutil==2.6.1 pytz==2018.3
 
 # Copy data
 COPY run.sh /
