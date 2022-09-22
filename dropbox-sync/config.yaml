@@ -1,0 +1,20 @@
+---
+name: Soumyadeeps Dropbox Sync
+version: dev
+slug: dropbox_sync
+description: Upload your Hass.io backups to Dropbox
+url: git@github.com:sam17/hassio-dropbox-sync.git
+codenotary: soumyadeep9@gmail.com
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  log_level: info
+  seconds_between_quotes: 5
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)
+  seconds_between_quotes: int(1,120)
