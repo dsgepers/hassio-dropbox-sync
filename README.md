@@ -10,7 +10,7 @@ This add-on uses the [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox
 
 ## Installation
 
-1. Add the add-ons repository to your Hass.io instance: `https://github.com/sam17/hassio-addons`
+1. Add the add-ons repository to your Hass.io instance: `https://github.com/dsgepers/hassio-addons`
 2. Install the Dropbox Sync add-on
 3. Configure the add-on with your Dropbox OAuth Token and desired output directory (see configuration below)
 
